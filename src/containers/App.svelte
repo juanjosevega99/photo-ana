@@ -1,8 +1,12 @@
 <script>
+  import { onMount } from 'svelte'
   import Header from "../components/Header.svelte";
   import Main from "../components/Main.svelte";
   import Sidebar from "../components/Sidebar.svelte";
   import TimeLine from "../components/TimeLine.svelte";
+
+  let data = {};
+
 </script>
 
 <style>

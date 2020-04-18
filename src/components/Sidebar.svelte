@@ -5,8 +5,12 @@
 </script>
 
 <style>
-  .TimeLine {
-    padding: 4em 0 0 0;
+  .Sidebar {
+    position: relative;
+    padding: 4.5em 0 0 0;
+  }
+  .Sidebar-container {
+    position: fixed;
   }
 </style>
 
