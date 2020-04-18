@@ -57,7 +57,7 @@
   }
 </style>
 
-<div class="">
+<div class="Stories">
   <div class="Stories-container">
     <div class="Stories-head">
       <h2>Stories</h2>

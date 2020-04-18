@@ -1,5 +1,12 @@
 <script>
-  import Comments from './Comments.svelte'
+  import Comments from "./Comments.svelte";
+
+  export let username;
+  export let location;
+  export let photo;
+  export let postComment;
+  export let comments;
+  export let avatar;
 </script>
 
 <style>
@@ -119,10 +126,10 @@
   <div class="Card-container">
     <div class="Card-Header">
       <div class="Card-user">
-        <img src="https://instagram.fnva1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/93571183_700157570811057_7056976415194873856_n.jpg?_nc_ht=instagram.fnva1-1.fna.fbcdn.net&_nc_ohc=_cTj6kBSRSEAX_mFVf2&oh=737d31baa078beb7c27db72698b2ba39&oe=5EC6C750" alt="">
+        <img src={avatar} alt={username} />
         <h2>
-          manuelaarias_98
-          <span>Huila, Colombia</span>
+          {username}
+          <span>{location}</span>
         </h2>
       </div>
       <div class="Card-settings">
@@ -131,7 +138,7 @@
     </div>
     <div class="Card-photo">
       <figure>
-        <img src="https://instagram.fnva1-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/75358229_151183719510830_145204898161177428_n.jpg?_nc_ht=instagram.fnva1-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=BVwn8gSEelcAX_BOIQk&oh=a1103b21b563c4fa50f02f9909327daa&oe=5EC4F6AE" alt="">
+        <img src={photo} alt={username} />
       </figure>
     </div>
     <div class="Card-icons">
@@ -144,9 +151,9 @@
       </div>
     </div>
     <div class="Card-description">
-      <h3>manuelaarias_98</h3>
-      <span>Estudio, tomo café y leo; cazo atardeceres y tengo flores amarillas enterradas bajo la piel.</span>
+      <h3>{username}</h3>
+      <span>{postComment}</span>
     </div>
-    <Comments />
+    <Comments {comments} />
   </div>
 </div>
