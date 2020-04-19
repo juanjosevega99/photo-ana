@@ -1,4 +1,6 @@
-
+<script>
+  import { likeCount } from "../store/store.js";
+</script>
 
 <style>
   .Header {
@@ -68,6 +70,7 @@
         <ul>
           <li>
             <i class="fas fa-heart" />
+            {$likeCount === 0 ? '' : $likeCount}
           </li>
           <li>
             <i class="fas fa-user-alt" />
