@@ -66,10 +66,10 @@
     <div class="Stories-items">
       <div class="Stories-item">
         <div class="Stories-item-box">
-          <img src="https://instagram.fnva1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/93571183_700157570811057_7056976415194873856_n.jpg?_nc_ht=instagram.fnva1-1.fna.fbcdn.net&_nc_ohc=_cTj6kBSRSEAX_mFVf2&oh=737d31baa078beb7c27db72698b2ba39&oe=5EC6C750" alt="">
+          <img src="https://instagram.fnva1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/80316394_868729026878025_9214416149574320128_n.jpg?_nc_ht=instagram.fnva1-1.fna.fbcdn.net&_nc_ohc=UMMkhQbAqvAAX8sYCW-&oh=fd050eb24b1a9e95446ec4ab91e1c4fa&oe=5EC67D46" alt="">
         </div>
         <h2>
-          Marra
+          anamariaosorio_11
           <span>3 HOURS AGO</span>
         </h2>
       </div>

@@ -62,7 +62,7 @@
   <div class="Header-container">
     <div class="Header-content">
       <div class="Header-logo">
-        <h1>Husky</h1>
+        <h1>Favorito</h1>
       </div>
       <div class="Header-nav">
         <ul>

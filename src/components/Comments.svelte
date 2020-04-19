@@ -54,8 +54,8 @@
 <div class="Comments">
   <div class="Comments-content">
     <div class="Comments-users">
-      <h3>Vega</h3>
-      <span>Masita xd</span>
+      <h3>JJ</h3>
+      <span>Tú eres lo que yo necesito, Yo soy lo que tú necesitas 💜</span>
     </div>
     <div class="Comments-add">
       <form action="">

@@ -10,7 +10,7 @@
 <div class="Footer">
   <div class="Footer-container">
     <div class="Footer-copy">
-      © 2020 HUSKYGRAM FROM VEGA
+      © 2020 ANAGRAM FROM VEGA
     </div>
   </div>
 </div>
